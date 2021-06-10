@@ -1,0 +1,42 @@
+li.activeElement>.about_nav {
+  background-color: #03318C;
+}
+
+li.activeElement>button {
+  color: #03318C !important;
+}
+
+li>button:hover {
+  color: #03318C !important;
+}
+
+li>button:hover~.about_nav {
+  background-color: #03318C;
+}
+
+.about_nav {
+  width: 110%;
+  height: 4px;
+  left: -5%;
+  bottom: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  display: block;
+  transition: .5s linear;
+}
+
+.aboutContent.activeContent {
+  display: block;
+}
+
+.aboutContent {
+  display: none;
+}
+
+div.image_section_home>div>img {
+  transition: .5s ease-in-out;
+}
+
+div.image_section_home:hover>div>img {
+  transform: scale(1.1);
+}

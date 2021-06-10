@@ -1,0 +1,23 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Create your own map
+$mydbl-colors: ("mydbl": #03318C);
+$mymbl-colors: ("mymbl": #056CF2);
+$mylbl-colors: ("mylbl": #0597F2);
+$mybg-colors: ("mybg": #D9D9D9);
+$myyellow-colors: ("myyellow": #F2B705);
+$myorange-colors: ("myorange": #F27405);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $mydbl-colors);
+$theme-colors: map-merge($theme-colors, $mymbl-colors);
+$theme-colors: map-merge($theme-colors, $mylbl-colors);
+$theme-colors: map-merge($theme-colors, $mybg-colors);
+$theme-colors: map-merge($theme-colors, $myyellow-colors);
+$theme-colors: map-merge($theme-colors, $myorange-colors);
+
+.btn-outline-myorange:hover {
+  color: white !important;
+}

@@ -1,0 +1,61 @@
+.mainNav {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+  z-index: 3;
+  transition: 1s ease;
+}
+
+
+.mainNav a.active {
+  color: map-get($theme-colors, "myyellow") !important;
+}
+
+.mainNav a:hover {
+  color: map-get($theme-colors, "myyellow") !important;
+}
+
+.mainNav li:nth-last-of-type(1) a:hover,
+.mainNav li:nth-last-of-type(1) a.active {
+  color: map-get($theme-colors, "myyellow") !important;
+  background-color: transparent !important;
+}
+
+
+@media (max-width: 992px) {
+  .mainNav {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .mainNav>nav {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mainNav .company_logo_navbar {
+    width: auto;
+    height: 65px;
+  }
+}
+
+.mainNav.active {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.mainNav.active nav {
+  padding-top: 0;
+  padding-bottom: 5px;
+  transition: 1s ease;
+}
+
+.company_logo_navbar {
+  width: auto;
+  height: 80px;
+  transition: 1s ease;
+}
+
+.mainNav.active .company_logo_navbar {
+  width: auto;
+  height: 60px;
+}

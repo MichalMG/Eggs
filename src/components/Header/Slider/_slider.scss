@@ -1,0 +1,48 @@
+.dotActive {
+  color: map-get($theme-colors, "myyellow")
+}
+
+@keyframes textHandler {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+
+  75% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes imgHandler {
+  0% {
+    opacity: .4;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .4;
+  }
+}
