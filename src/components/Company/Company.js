@@ -28,9 +28,7 @@ export default function Company() {
     <div className="my-4 py-3 bg-light">
       <div className="container ">
 
-        {/* Section features Start */}
         <Features />
-        {/* Section features End */}
 
 
         <div className="row">
@@ -42,8 +40,8 @@ export default function Company() {
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
 
             <div className="text-start mt-3 mt-lg-0">
-              <p className="fs-3 fw-bold text-mydbl mb-1">Jesteśmy na rynku od ponad xx lat</p>
-              <p className="fs-5 text-mydbl">Nasza firma została założona w xx roku i od wielu lat, nieprzerwanie produkujemy i dostarczamy do Was nasze jajka</p>
+              <p className="fs-3 fw-bold text-mydbl mb-1">Jesteśmy na rynku od ponad 40 lat</p>
+              <p className="fs-5 text-mydbl">Nasza firma została założona w 1980 roku i od wielu lat, nieprzerwanie produkujemy i dostarczamy do Was nasze jajka</p>
             </div>
 
             <div style={{ minHeight: '40%' }}>
@@ -55,11 +53,7 @@ export default function Company() {
                     <div className="position-absolute about_nav"></div>
                   </li>
                   <li className="position-relative ">
-                    <button onClick={(e) => btnHandler(e, "target")} className="btn shadow-none text-mymbl">Nasza misja</button >
-                    <div className="position-absolute about_nav" ></div>
-                  </li>
-                  <li className="position-relative">
-                    <button onClick={(e) => btnHandler(e, "vision")} className="btn shadow-none text-mymbl" >Nasza wizja</button >
+                    <button onClick={(e) => btnHandler(e, "target")} className="btn shadow-none text-mymbl">Dlaczego my?</button >
                     <div className="position-absolute about_nav" ></div>
                   </li>
                 </ul>
@@ -67,13 +61,14 @@ export default function Company() {
 
               <div ref={about_content}>
                 <div data-name="about" className="activeContent aboutContent">
-                  <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem </p>
+                  <p>Jesteśmy firmą, która produkuje jajka, posiadamy fachową wiedzę o zwierzętach, sposobie żywienia i paszach, a dodatkowo cały czas się rozwijamy i poszerzamy swoją wiedzę na różnych szkoleniach oraz spotkaniach</p>
                 </div>
                 <div data-name="target" className="aboutContent">
-                  <p>ipsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum doloripsum dolor</p>
-                </div>
-                <div data-name="vision" className="aboutContent">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores deleniti veniam quaerat laudantium. Vero ipsam hic eaque magnam? Iure itaque sapiente omnis dignissimos deserunt aliquam inventore asperiores reiciendis voluptatibus.</p>
+                  <p className="mb-1">Kładziemy duży nacisk na bardzo dobre warunki zwierząt</p>
+                  <p className="mb-1">Jak najlepsza jakość jajek jest dla nas bardzo ważna</p>
+                  <p className="mb-1">Wieloletnie doświadczenie</p>
+                  <p className="mb-1">Indywidualnie podchodzimy do każdego klienta bez względu na wielość zamówienia</p>
+                  <p className="mb-3">Duża elastyczność i możliwość porozumienia się w każdej sytuacji</p>
                 </div>
               </div>
             </div>

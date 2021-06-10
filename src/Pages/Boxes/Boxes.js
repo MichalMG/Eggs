@@ -11,7 +11,7 @@ export default function Boxes() {
     <>
       <HeaderPage />
       <div className="my-4 py-3 bg-light" >
-        <h1 className="text-center text-myorange border-bottom border-1 border-myyellow pb-3">Dla klientów detalicznych</h1>
+        <h1 className="text-center text-myorange border-bottom border-1 border-myyellow pb-3">Klient detaliczny</h1>
         <div className="container">
           <div className="row">
 
@@ -61,7 +61,7 @@ export default function Boxes() {
 
 
       <div className="my-4 py-3 bg-light" >
-        <h1 className="text-center text-myorange border-bottom border-1 border-myyellow pb-3">Dla klientów hurtowych</h1>
+        <h1 className="text-center text-myorange border-bottom border-1 border-myyellow pb-3">Klient hurtowy</h1>
         <div className="container">
           <div className="row">
 

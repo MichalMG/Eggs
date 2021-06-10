@@ -29,7 +29,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="mt-4 py-3 bg-mybg text-myyellow border-top border-3 border-myorange" style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <footer className="mt-4 py-3 text-myyellow border-top border-3 border-myorange" style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container">
           <div className="row">
 
@@ -112,9 +112,9 @@ export default function Footer() {
                 </div>
 
                 <div className="d-flex flex-column text-myyellow">
-                  <h6 className="mb-3 ms-3">ulica xxx, 00-000 Xyz</h6>
+                  <h6 className="mb-3 ms-3">ul. Przykładowa 1, 33-333 Kraków</h6>
                   <h6 className="mb-3 ms-3">+48 000 000 000</h6>
-                  <h6 className="mb-0 ms-3">info@info.info</h6>
+                  <h6 className="mb-0 ms-3">zamowienia@nazwafirmy.pl</h6>
 
                 </div>
 

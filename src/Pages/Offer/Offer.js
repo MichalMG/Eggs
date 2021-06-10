@@ -2,6 +2,7 @@ import HeaderPage from "../../components/Header/HeaderPage/HeaderPage";
 import eggImg from '../../assets/img/company_2.jpg';
 import offer_2 from '../../assets/img/offer_2.jpg';
 import useWebTitle from "../../hooks/useWebTitle";
+import { Link } from "react-router-dom";
 
 export default function Offer() {
 
@@ -32,8 +33,8 @@ export default function Offer() {
                     <p>W przypadku zamówienia detalicznego, jajka pakujemy w opakowania 6, 10, 20, 30, 40, 50, po odbiór jajek zapraszamy do naszego sklepu stacjonarnego XXX. Przy większym zamówieniu istnieje możliwość dostarczenia jajek pod wskazany adres. Po szczegóły zapraszamy do kontaktu</p>
                   </div>
                   <div className="d-flex flex-column">
-                    <button className="btn btn-mydbl mb-3">Sprawdź jak zamówić jajka</button>
-                    <button className="btn btn-mydbl">Sprawdź wszystkie opakowania jakie mamy w ofercie</button>
+                    <Link onClick={() => window.scrollTo(0, 0)} to="/orders" className="btn btn-mydbl mb-3">Sprawdź jak zamówić jajka</Link>
+                    <Link onClick={() => window.scrollTo(0, 0)} to="/boxes" className="btn btn-mydbl">Sprawdź wszystkie opakowania jakie mamy w ofercie</Link>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import bgImg from '../../assets/img/bg.jpg';
+import OrderSteps from './OrderSteps/OrderSteps';
+
 
 
 export default function Orders() {
@@ -22,29 +24,7 @@ export default function Orders() {
 
           <div className="col-12 col-xl-6 order-1 order-xl-2 mt-3 mt-xl-0 aling-items-center d-flex">
 
-            <div className="row">
-              <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
-                <p className="display-4 me-3 text-muted">01</p>
-                <p>Zapraszamy do kontaktu telefonicznego lub mailowego, aby umówić dogodny termin na spotkanie</p>
-              </div>
-
-              <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
-                <p className="display-4 me-3 text-muted">02</p>
-                <p>Podczas spotkania ustalamy wszystkie szczegóły takie jak wielkość zamówień, cenę oraz harmonogram dostaw</p>
-              </div>
-
-              <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
-                <p className="display-4 me-3 text-muted">03</p>
-                <p>Realizacja zamówienia zgodnie z wcześniejszymi ustaleniami</p>
-              </div>
-
-              <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
-                <p className="display-4 me-3 text-muted">04</p>
-                <p>Klientów detalicznych zapraszamy do naszego sklepu</p>
-              </div>
-
-            </div>
-
+            <OrderSteps />
 
           </div>
 

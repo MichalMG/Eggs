@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import './scss/style.scss';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Home from './Pages/Home/Home';
 import Company from './Pages/Company/Company';
