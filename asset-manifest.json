@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Eggs/static/css/main.d1df51ad.chunk.css",
+    "main.js": "/Eggs/static/js/main.65809300.chunk.js",
+    "main.js.map": "/Eggs/static/js/main.65809300.chunk.js.map",
+    "runtime-main.js": "/Eggs/static/js/runtime-main.55aa09e6.js",
+    "runtime-main.js.map": "/Eggs/static/js/runtime-main.55aa09e6.js.map",
+    "static/js/2.097370c0.chunk.js": "/Eggs/static/js/2.097370c0.chunk.js",
+    "static/js/2.097370c0.chunk.js.map": "/Eggs/static/js/2.097370c0.chunk.js.map",
+    "static/js/3.7b9994a0.chunk.js": "/Eggs/static/js/3.7b9994a0.chunk.js",
+    "static/js/3.7b9994a0.chunk.js.map": "/Eggs/static/js/3.7b9994a0.chunk.js.map",
+    "index.html": "/Eggs/index.html",
+    "static/css/main.d1df51ad.chunk.css.map": "/Eggs/static/css/main.d1df51ad.chunk.css.map",
+    "static/js/2.097370c0.chunk.js.LICENSE.txt": "/Eggs/static/js/2.097370c0.chunk.js.LICENSE.txt",
+    "static/media/1.bf8639dc.jpg": "/Eggs/static/media/1.bf8639dc.jpg",
+    "static/media/2.a89016cf.jpg": "/Eggs/static/media/2.a89016cf.jpg",
+    "static/media/3.de338f77.jpg": "/Eggs/static/media/3.de338f77.jpg",
+    "static/media/bg.171e3b0d.jpg": "/Eggs/static/media/bg.171e3b0d.jpg",
+    "static/media/ceny.34e217ec.svg": "/Eggs/static/media/ceny.34e217ec.svg",
+    "static/media/company_1.2c712117.jpg": "/Eggs/static/media/company_1.2c712117.jpg",
+    "static/media/company_2.d00bdda9.jpg": "/Eggs/static/media/company_2.d00bdda9.jpg",
+    "static/media/company_3.2b201f41.jpg": "/Eggs/static/media/company_3.2b201f41.jpg",
+    "static/media/ferma.2ada5e49.svg": "/Eggs/static/media/ferma.2ada5e49.svg",
+    "static/media/jakosc.d6823ca5.svg": "/Eggs/static/media/jakosc.d6823ca5.svg",
+    "static/media/kura.c610bd97.jpg": "/Eggs/static/media/kura.c610bd97.jpg",
+    "static/media/logo.bcfe11cb.svg": "/Eggs/static/media/logo.bcfe11cb.svg",
+    "static/media/offer.b25e1947.jpg": "/Eggs/static/media/offer.b25e1947.jpg",
+    "static/media/offer_2.83938a48.jpg": "/Eggs/static/media/offer_2.83938a48.jpg",
+    "static/media/pasza.d9a67ae9.svg": "/Eggs/static/media/pasza.d9a67ae9.svg",
+    "static/media/wytlaczanka.ed168684.jpg": "/Eggs/static/media/wytlaczanka.ed168684.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55aa09e6.js",
+    "static/js/2.097370c0.chunk.js",
+    "static/css/main.d1df51ad.chunk.css",
+    "static/js/main.65809300.chunk.js"
+  ]
+}
