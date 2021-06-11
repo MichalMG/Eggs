@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Eggs/static/css/main.d1df51ad.chunk.css",
-    "main.js": "/Eggs/static/js/main.2b3f4a91.chunk.js",
-    "main.js.map": "/Eggs/static/js/main.2b3f4a91.chunk.js.map",
+    "main.js": "/Eggs/static/js/main.1c852f34.chunk.js",
+    "main.js.map": "/Eggs/static/js/main.1c852f34.chunk.js.map",
     "runtime-main.js": "/Eggs/static/js/runtime-main.55aa09e6.js",
     "runtime-main.js.map": "/Eggs/static/js/runtime-main.55aa09e6.js.map",
     "static/js/2.d5fa9e2c.chunk.js": "/Eggs/static/js/2.d5fa9e2c.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/box_1.867dfa04.jpg": "/Eggs/static/media/box_1.867dfa04.jpg",
     "static/media/box_2.39a87685.jpg": "/Eggs/static/media/box_2.39a87685.jpg",
     "static/media/ceny.34e217ec.svg": "/Eggs/static/media/ceny.34e217ec.svg",
+    "static/media/company.032d7535.jpg": "/Eggs/static/media/company.032d7535.jpg",
     "static/media/company_2.1188926b.jpg": "/Eggs/static/media/company_2.1188926b.jpg",
     "static/media/dostawa.60021c15.svg": "/Eggs/static/media/dostawa.60021c15.svg",
     "static/media/doswiadczenie.76d2a130.svg": "/Eggs/static/media/doswiadczenie.76d2a130.svg",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.55aa09e6.js",
     "static/js/2.d5fa9e2c.chunk.js",
     "static/css/main.d1df51ad.chunk.css",
-    "static/js/main.2b3f4a91.chunk.js"
+    "static/js/main.1c852f34.chunk.js"
   ]
 }
