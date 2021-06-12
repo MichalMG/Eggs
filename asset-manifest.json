@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Eggs/static/css/main.075a8e10.chunk.css",
-    "main.js": "/Eggs/static/js/main.33e8b2d2.chunk.js",
-    "main.js.map": "/Eggs/static/js/main.33e8b2d2.chunk.js.map",
+    "main.css": "/Eggs/static/css/main.bfd2f236.chunk.css",
+    "main.js": "/Eggs/static/js/main.60fc050d.chunk.js",
+    "main.js.map": "/Eggs/static/js/main.60fc050d.chunk.js.map",
     "runtime-main.js": "/Eggs/static/js/runtime-main.55aa09e6.js",
     "runtime-main.js.map": "/Eggs/static/js/runtime-main.55aa09e6.js.map",
     "static/js/2.d5fa9e2c.chunk.js": "/Eggs/static/js/2.d5fa9e2c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7b9994a0.chunk.js": "/Eggs/static/js/3.7b9994a0.chunk.js",
     "static/js/3.7b9994a0.chunk.js.map": "/Eggs/static/js/3.7b9994a0.chunk.js.map",
     "index.html": "/Eggs/index.html",
-    "static/css/main.075a8e10.chunk.css.map": "/Eggs/static/css/main.075a8e10.chunk.css.map",
+    "static/css/main.bfd2f236.chunk.css.map": "/Eggs/static/css/main.bfd2f236.chunk.css.map",
     "static/js/2.d5fa9e2c.chunk.js.LICENSE.txt": "/Eggs/static/js/2.d5fa9e2c.chunk.js.LICENSE.txt",
     "static/media/1.7dae03c2.jpg": "/Eggs/static/media/1.7dae03c2.jpg",
     "static/media/2.0e8d87cb.jpg": "/Eggs/static/media/2.0e8d87cb.jpg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.55aa09e6.js",
     "static/js/2.d5fa9e2c.chunk.js",
-    "static/css/main.075a8e10.chunk.css",
-    "static/js/main.33e8b2d2.chunk.js"
+    "static/css/main.bfd2f236.chunk.css",
+    "static/js/main.60fc050d.chunk.js"
   ]
 }
