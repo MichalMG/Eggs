@@ -21,5 +21,5 @@
     
 ### Mobile:  
 
-  <img src="https://github.com/MichalMG/Eggs/blob/main/Screenshots/mobile.jpg"/> <img src="https://github.com/MichalMG/Eggs/blob/main/Screenshots/mobile2.jpg" />
+  <img src="https://github.com/MichalMG/Eggs/blob/main/Screenshots/mobile.jpg" width="49%" /> <img src="https://github.com/MichalMG/Eggs/blob/main/Screenshots/mobile2.jpg"  width="49%" />
   
