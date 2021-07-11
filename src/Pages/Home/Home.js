@@ -2,8 +2,9 @@ import Box from "../../components/Box/Box";
 import Company from "../../components/Company/Company";
 import Header from "../../components/Header/Header";
 import Offer from "../../components/Offer/Offer";
-import Orders from "../../components/Orders/Orders";
+import Orders from "../../components/OrdersBoxes/Orders";
 import useWebTitle from "../../hooks/useWebTitle";
+
 
 export default function Home() {
   const setTitle = useWebTitle();

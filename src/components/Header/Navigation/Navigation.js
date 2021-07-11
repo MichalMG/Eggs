@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import company_logo from '../../../assets/logo.svg';
 
 export default function Navigation() {
@@ -38,12 +38,12 @@ export default function Navigation() {
       <nav className="navbar navbar-expand-lg navbar-dark ">
         <div className="container d-flex align-items-between">
 
-          <a href="www" className="navbar-brand d-flex align-items-center">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)} className="navbar-brand d-flex align-items-center">
             <div className="overflow-hidden" style={{ width: '100%', height: '100%' }}>
               <img className="company_logo_navbar" src={company_logo} alt="company_logo_navbar" />
             </div>
             <h4 className="mb-0 ms-2 text-myyellow">Nazwa firmy</h4>
-          </a>
+          </Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -78,13 +78,10 @@ export default function Navigation() {
                 <NavLink to="/offer" className="nav-link" aria-current="page">Nasza oferta</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/boxes" className="nav-link" aria-current="page">Opakowania</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/orders" className="nav-link" aria-current="page">Zamówienia</NavLink>
+                <NavLink to="/ordersandboxes" className="nav-link" aria-current="page">Zamówienia i opakowania</NavLink>
               </li>
               <li className="nav-item ms-lg-4">
-                <NavLink to="/contact" className="btn btn-outline-myyellow nav-link" aria-current="page">Kontakt</NavLink>
+                <NavLink to="/contact" className="btn btn-outline-myyellow nav-link px-3 px-lg-2" aria-current="page">Kontakt</NavLink>
               </li>
             </ul>
           </div>

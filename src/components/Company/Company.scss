@@ -33,10 +33,13 @@ li>button:hover~.about_nav {
   display: none;
 }
 
-div.image_section_home>div>img {
-  transition: .5s ease-in-out;
-}
+@include media-breakpoint-up(lg) {
 
-div.image_section_home:hover>div>img {
-  transform: scale(1.1);
+  div.image_section_home>div>img {
+    transition: .5s ease-in-out;
+  }
+
+  div.image_section_home:hover>div>img {
+    transform: scale(1.1);
+  }
 }

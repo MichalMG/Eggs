@@ -19,20 +19,12 @@ export default function Orders() {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumendaadipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumendaadipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumenda facere dolore. Modi, delectus? Nam?</p>
           </div>
 
-
-
-
           <div className="col-12 col-xl-6 order-1 order-xl-2 mt-3 mt-xl-0 aling-items-center d-flex">
-
             <OrderSteps />
-
           </div>
 
-
-
-
         </div>
-        <Link to="/orders" onClick={() => window.scrollTo(0, 0)} className="btn btn-outline-myorange">Więcej informacji</Link>
+        <Link to="/ordersandboxes" onClick={() => window.scrollTo(0, 0)} className="btn btn-outline-myorange">Więcej informacji</Link>
       </div>
     </div>
   )

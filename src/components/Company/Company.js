@@ -28,12 +28,12 @@ export default function Company() {
     <div className="my-4 py-3 bg-light">
       <div className="container ">
 
-        <Features />
+        <Features showAll={false} />
 
 
         <div className="row">
-          <div className="col-10 col-sm-8 col-lg-5 col-xl-6  ms-auto me-auto ms-lg-0 me-lg-0">
-            <div>
+          <div className="col-10 col-sm-8 col-lg-5 col-xl-6  ms-auto me-auto ms-lg-0 me-lg-0 image_section_home">
+            <div className="rounded-pill overflow-hidden">
               <img src={kura} alt="" className="rounded-pill" style={{ width: '100%', height: '100%' }} />
             </div>
           </div>

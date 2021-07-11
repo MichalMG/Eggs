@@ -2,7 +2,7 @@ export default function OrderSteps() {
 
   return (
     <div className="row">
-      <h4 className="text-center text-myorange py-3">Zamówienie w kilku prostych krokach</h4>
+      <h4 className="text-center text-myorange py-3">Złóż zamówienie w kilku prostych krokach</h4>
       <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
         <p className="display-4 me-3 text-muted">01</p>
         <p>Kontakt telefoniczny lub mailowy z firmą</p>
@@ -20,7 +20,7 @@ export default function OrderSteps() {
 
       <div className="col-12 col-md-6 d-flex align-items-center text-myorange">
         <p className="display-4 me-3 text-muted">04</p>
-        <p>Dostawa do klienta</p>
+        <p>Dostawa do klienta/odbiór zamówienia</p>
       </div>
     </div>
   )

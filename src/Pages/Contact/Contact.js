@@ -36,22 +36,21 @@ export default function Contact() {
   return (
     <>
       <HeaderPage />
-      <div className="mt-4 pt-3 bg-light" >
+      <div className="mt-4 py-4 bg-light" >
         <h1 className="text-center text-myorange border-bottom border-1 border-myyellow pb-3">Zapraszamy do kontaktu</h1>
         <div className="container">
           <div className="row">
-            <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center mt-4 mt-lg-0 order-2 order-lg-1">
-              <div>
-                <p className="display-6">Dane firmy:</p>
-                <p className="text-mydbl fw-bold fs-4 mb-2">Nazwa firmy</p>
-                <p className="mb-1 text-mydbl fw-bold">ul. Przykładowa 1</p>
-                <p className="mb-1 text-mydbl fw-bold">33-333 Kraków</p>
-                <p className="mb-1 text-mydbl fw-bold">NIP: 000 000 0000</p>
-                <p className="mb-1 text-mydbl fw-bold">zamowienia@nazwafirmy.pl</p>
-                <p className="mb-1 text-mydbl fw-bold">+48 000 000 000</p>
+            <div className="col-12 col-md-6 d-flex justify-content-center align-items-center mt-4 mt-lg-0 order-2 order-md-1">
+              <div className="text-mydbl">
+                <p className=" fw-bold fs-4 mb-2">Nazwa firmy</p>
+                <p className="mb-1 fw-bold">ul. Przykładowa 1</p>
+                <p className="mb-1 fw-bold">33-333 Kraków</p>
+                <p className="mb-1 fw-bold">NIP: 000 000 0000</p>
+                <p className="mb-1 fw-bold">zamowienia@nazwafirmy.pl</p>
+                <p className="mb-1 fw-bold">+48 000 000 000</p>
               </div>
             </div>
-            <div className="col-12 col-lg-6 order-1 order-lg-2">
+            <div className="col-12 col-md-6 order-1 order-md-2">
               <div>
                 <form>
                   <div className="row">
@@ -81,9 +80,9 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="mt-4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221110.49998026894!2d20.846354050525463!3d52.24421419675026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1623270664329!5m2!1spl!2spl" title="map" style={{ border: 'none', width: '100%', height: '40vh' }} allowFullScreen="" loading="lazy"></iframe>
-        </div>
+      </div>
+      <div className="mt-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221110.49998026894!2d20.846354050525463!3d52.24421419675026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1623270664329!5m2!1spl!2spl" title="map" style={{ border: 'none', width: '100%', height: '40vh' }} allowFullScreen="" loading="lazy"></iframe>
       </div>
     </>
   )

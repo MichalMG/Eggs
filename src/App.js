@@ -7,7 +7,7 @@ import Home from './Pages/Home/Home';
 import Company from './Pages/Company/Company';
 import Offer from './Pages/Offer/Offer';
 import Boxes from './Pages/Boxes/Boxes';
-import Order from './Pages/Order/Order';
+import OrdersBoxes from './Pages/OrdersBoxes/OrdersBoxes.js';
 import Contact from './Pages/Contact/Contact';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Switch>
           <Route path='/contact' component={Contact} />
-          <Route path='/orders' component={Order} />
+          <Route path='/ordersandboxes' component={OrdersBoxes} />
           <Route path='/boxes' component={Boxes} />
           <Route path='/company' component={Company} />
           <Route path='/offer' component={Offer} />

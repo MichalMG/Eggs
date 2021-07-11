@@ -125,7 +125,7 @@ export default function Footer() {
         </div>
       </footer>
       <div className="text-center m-0 py-2 text-muted" style={{ backgroundColor: 'rgba(0,0,0,1)' }}>
-        <h6 className="m-0 p-0">Copyright MG</h6>
+        <p className="m-0 p-0">Copyright  <a className="link-success text-decoration-none" href="https://michalmg.github.io/Portfolio/">MG</a></p>
       </div>
       <div ref={pageUp} onClick={() => window.scrollTo(0, 0)} className="position-fixed rounded" style={{ bottom: '8%', right: '8%', width: '55px', height: '55px', backgroundColor: 'rgba(0,0,0,.83)', cursor: 'pointer', transition: '.5s linear', transform: 'scale(0)' }}>
         <div className="d-flex align-items-center justify-content-center text-myorange" style={{ width: '100%', height: '100%' }}>

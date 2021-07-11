@@ -18,7 +18,7 @@ export default function Box() {
               <h1 className="text-mydbl text-start">Opakowania</h1>
               <p className="text-mydbl">W sprzedaży posiadamy kilka rodzajów opakowań, tak więc jesteśmy w stanie sprostać zapotrzebowaniu <span className="fw-bold">każdego</span> klienta- detalicznego i hurtowego</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumendaadipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumendaadipisicing elit. In architecto ducimus quasi, fugiat eos pariatur impedit magnam fuga dolor at, nesciunt ut beatae error assumenda facere dolore. Modi, delectus? Nam?</p>
-              <Link to="/boxes" onClick={() => window.scrollTo(0, 0)} className="btn btn-outline-mydbl">Więcej informacji</Link>
+              <Link to="/ordersandboxes" onClick={() => window.scrollTo(0, 0)} className="btn btn-outline-mydbl">Więcej informacji</Link>
             </div>
           </div>
         </div>
